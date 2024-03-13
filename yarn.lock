@@ -1861,6 +1861,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.debounce@npm:^4.0.8":
+  version: 4.0.8
+  resolution: "lodash.debounce@npm:4.0.8"
+  checksum: 762998a63e095412b6099b8290903e0a8ddcb353ac6e2e0f2d7e7d03abd4275fe3c689d88960eb90b0dde4f177554d51a690f22a343932ecbc50a5d111849987
+  languageName: node
+  linkType: hard
+
 "lodash.isequal@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.isequal@npm:4.5.0"
@@ -2543,6 +2550,7 @@ __metadata:
     tailwindcss: "npm:^3.2.1"
     tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:^5.0.2"
+    usehooks-ts: "npm:^3.0.1"
     vite: "npm:^5.0"
   languageName: unknown
   linkType: soft
@@ -2928,6 +2936,17 @@ __metadata:
   bin:
     update-browserslist-db: cli.js
   checksum: e52b8b521c78ce1e0c775f356cd16a9c22c70d25f3e01180839c407a5dc787fb05a13f67560cbaf316770d26fa99f78f1acd711b1b54a4f35d4820d4ea7136e6
+  languageName: node
+  linkType: hard
+
+"usehooks-ts@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "usehooks-ts@npm:3.0.1"
+  dependencies:
+    lodash.debounce: "npm:^4.0.8"
+  peerDependencies:
+    react: ^16.8.0  || ^17 || ^18
+  checksum: c1673758100251c35a62d8d50aafe375fdce253eaa4374e7f4686bfc68505bd1b24dfe1c605db6d2ddfbe3a4ac1eca826c52ce454c9e58d8da96a45c351e0e05
   languageName: node
   linkType: hard
 
